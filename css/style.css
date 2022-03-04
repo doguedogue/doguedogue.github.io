@@ -44,3 +44,7 @@ body{
     padding: 1em;
     text-align: justify;
 }
+
+.link {
+    text-decoration: none;
+}
