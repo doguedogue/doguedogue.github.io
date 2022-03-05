@@ -176,3 +176,11 @@ th {
 .inputform {
     width: 100%;
 }
+
+.rigth {
+    text-align:right;
+}
+
+.ordenes {
+    font-size: small;
+}
