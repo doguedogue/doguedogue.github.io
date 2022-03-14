@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 3 CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Vaccination | @doguedogue</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -93,12 +93,12 @@
             <div class="section__texts">
                 <h1 class="section__title">Preparations Before Vaccine</h1>
                 <h2 class="section__copy">the success of vaccines is strongly influenced by the streng of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</h2>
-                <h2 class="section__copy">🚨 Avoid alcoholic beverages 🔽</h2>
-                <h2 class="section__copy">🚨 Avoid stress 🔼</h2>
-                <p class="section__copy_text">Stress has a profound effect on immune work. <br>Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.</p>
-                <h2 class="section__copy">🚨 Eat healthy food 🔽</h2>
-                <h2 class="section__copy">🚨 Get enough sleep 🔽</h2>
-                <h2 class="section__copy">🚨 Excercise or physical activity 🔽</h2>
+                <h2 class="section__copy">🚫 Avoid alcoholic beverages 🔽</h2>
+                <h2 class="section__copy">⛔ Avoid stress 🔼</h2>
+                <p class="section__copy__text">Stress has a profound effect on immune work. <br>Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.</p>
+                <h2 class="section__copy">🥗 Eat healthy food 🔽</h2>
+                <h2 class="section__copy">💤 Get enough sleep 🔽</h2>
+                <h2 class="section__copy">🤽‍♂️ Excercise or physical activity 🔽</h2>
             </div>
         </section>
 
@@ -115,7 +115,7 @@
                                 </figure>
                                 <div class="section__contacts__number">
                                     <h2 class="section__contacts__box__title">Call</h2>
-                                    <h2 class="section__contacts__box__title">021.123.145.14</h2>
+                                    <p class="section__copy__text">021.123.145.14</p>
                                 </div>
                             </div>
                             <a href="#" class="contact_button">Call Now</a>
@@ -127,10 +127,10 @@
                                 </figure>
                                 <div class="section__contacts__number">
                                     <h2 class="section__contacts__box__title">Chat</h2>
-                                    <h2 class="section__contacts__box__title">021.123.145.14</h2>
+                                    <p class="section__copy__text">021.123.145.14</p>
                                 </div>
                             </div>
-                            <a href="#" class="contact_button">Chat Now</a>
+                            <a href="#" class="contact_button contact_button--active">Chat Now</a>
                         </div>
                     </div>
                     <div class="section__contacts__par">
@@ -141,7 +141,7 @@
                                 </figure>
                                 <div class="section__contacts__number">
                                     <h2 class="section__contacts__box__title">Video Call</h2>
-                                    <h2 class="section__contacts__box__title">021.123.145.14</h2>
+                                    <p class="section__copy__text">021.123.145.14</p>
                                 </div>
                             </div>
                             <a href="#" class="contact_button">Video Call Now</a>
@@ -153,7 +153,7 @@
                                 </figure>
                                 <div class="section__contacts__number">
                                     <h2 class="section__contacts__box__title">Message</h2>
-                                    <h2 class="section__contacts__box__title">021.123.145.14</h2>
+                                    <p class="section__copy_text">021.123.145.14</p>
                                 </div>
                             </div>
                             <a href="#" class="contact_button">Message Now</a>
@@ -167,9 +167,36 @@
         </section>
 
     </main>
-    <footer>
-        <div class="footer">
-            <p class="footer__text">About 2022</p>
+    <footer class="container container--pad container__about">
+        <div class="about__block1">
+            <div class="about__v1">
+                <h2 class="about__v1_title">Vaccination</h2>
+                <p class="about__v1_text">Our goal is to help the<br>the world free from the<br>ongoing pandemic</p>
+            </div>
+            <div class="about__v2">
+                <div class="about__v2__group">
+                    <h2 class="about__v2_title">About</h2>
+                    <p class="about__v2_text">About Us</p>
+                    <p class="about__v2_text">Features</p>
+                    <p class="about__v2_text">News & Blog</p>
+                </div>     
+                <div class="about__v2__group">
+                    <h2 class="about__v2_title">Company</h2>
+                    <p class="about__v2_text">How we work?</p>
+                    <p class="about__v2_text">Capital</p>
+                    <p class="about__v2_text">Security</p>
+                </div>   
+                <div class="about__v2__group">
+                    <h2 class="about__v2_title">Support</h2>
+                    <p class="about__v2_text">FAQs</p>
+                    <p class="about__v2_text">Support Center</p>
+                    <p class="about__v2_text">Contact Us</p>
+                </div>          
+            </div>
+        </div>
+        <div class="about__block2">
+            <p class="about__v1_text about__v1_text--sp">@2022 Vaccination. All rights reserved</p>
+            <p class="about__v1_text about__v1_text--sp">Terms & Agreements &nbsp;&nbsp; Privacy Policy</p>
         </div>
     </footer>
 </body>
