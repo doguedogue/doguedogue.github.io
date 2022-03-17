@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex @doguedogue</title>
+    <link rel="stylesheet" href="./css/pokedex.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1><a href="https://doguedogue.github.io" class="hero">Judy's Pokedex</a></h1>
+        <div class="forma">
+            <input type="text" placeholder="pikachu(nombre o número)" id="pokeName" name="pokeName" class="input">
+            <button onclick="fetchPokemon()" id="myBtn">Buscar</button> 
+        </div>
+        <input type="text" class="text__name" id="nombre" value="" disabled="true">
+        <img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" class="pokeimg" class="input">           
+    </div>    
+    <div class="hero__wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg>
+    </div>
+</body>
+<footer>
+    <script src="./js/pokedex.js"></script>
+</footer>
+</html>
