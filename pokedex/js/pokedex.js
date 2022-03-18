@@ -5,8 +5,8 @@ const fetchPokemon = () => {
     const url = `https://pokeapi.co/api/v2/pokemon/${pokeName}`;
     fetch(url).then((res) => {
         if (res.status != "200") {
-            console.log(res);
-            setImage("./img/psyduck.gif")
+            // console.log(res);
+            setImage("./img/ball-404.gif")
             limpiaCampos();
         }
         else {
@@ -14,8 +14,7 @@ const fetchPokemon = () => {
         }
     }).then((data) => {
         if (data) {
-            console.log(data);
-            
+            // console.log(data);            
             let nombre = data.id + '. ' + data.species.name[0].toUpperCase() + data.species.name.substring(1);
             setNumero(data.id);
             setNombre(nombre);
@@ -61,7 +60,7 @@ const decremPokem = () => {
     const inputfield = document.getElementById("numero");
     let numero = inputfield.value;
     inputfield.value = --numero;
-    if (inputfield.value == 0){
+    if (inputfield.value <= 0){
         inputfield.value = 1;
     }
     document.getElementById("pokeName").value = inputfield.value;
