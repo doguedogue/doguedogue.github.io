@@ -1295,3 +1295,20 @@ pre.prettyprint {
     position: relative;
     z-index: 2;
 }
+
+
+.carousel_link {
+    width: 90%;
+    font-size: 1.25rem;    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.802);    
+    display: inline-block;
+    padding: 2rem 0;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.carousel_link:hover {
+    color: black;
+    background-color: #0dcaf0b5;
+}
